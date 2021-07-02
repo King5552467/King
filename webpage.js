@@ -8,3 +8,11 @@ $('.menu-toggle').click(function(){
    $(".nav").toggleClass("mobile-nav");
    $(this).toggleClass("is-active");
 });
+
+
+$(document).ready(function(){
+    setTimeout(function(){
+        $('body').addClass('loaded');
+
+    }, 3000);
+});
